@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7ECD1"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <TextView
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textEnd"
+            android:textColor="#77557B"
+            android:textSize="50dp" />
+
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#89618D"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button17"
+            app:layout_constraintEnd_toStartOf="@+id/button18"
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toTopOf="@+id/button18" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/goguma1"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/goguma1"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/goguma1"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="textEnd"
+        android:textColor="#A684AA"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#C5BBDF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout  style="@style/layoutStyle">
+
+            <Button
+                android:id="@+id/button15"
+                android:onClick="mClickListener"
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:background="@drawable/gogu1"
+                android:text="C"
+                android:textSize="30dp"
+                android:textColor="#FA6860" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:background="@drawable/gogu1"
+                android:onClick="mClickListener"
+                android:text="/"
+                android:textSize="30dp"
+                android:textColor="#8BC34A" />
+
+        </LinearLayout>
+
+        <LinearLayout  style="@style/layoutStyle">
+
+            <Button
+                android:id="@+id/button1"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="1"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/buttonStyle"
+                android:background="@drawable/goguma1"
+                android:onClick="mClickListener"
+                android:text="2"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button3"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="3"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:onClick="mClickListener"
+                android:text="*"
+                android:textColor="#8BC34A" />
+
+        </LinearLayout>
+
+        <LinearLayout  style="@style/layoutStyle">
+
+            <Button
+                android:id="@+id/button4"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="4"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button5"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="5"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button6"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="6"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button12"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="-"
+                android:textColor="#8BC34A"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout  style="@style/layoutStyle">
+
+            <Button
+                android:id="@+id/button7"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="7"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button8"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="8"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button9"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="9"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button13"
+                android:onClick="mClickListener"
+                style="@style/buttonStyle"
+                android:background="@drawable/gogu1"
+                android:text="+"
+                android:textColor="#8BC34A" />
+
+        </LinearLayout>
+
+        <LinearLayout  style="@style/layoutStyle">
+
+            <Button
+                android:id="@+id/button0"
+                android:onClick="mClickListener"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gogu1"
+                android:text="0"
+                android:textSize="30dp"
+                android:textColor="#F0C248" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/goguma5"
+                android:onClick="onButtonClicked"
+                android:text="="
+                android:textColor="#2196F3"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

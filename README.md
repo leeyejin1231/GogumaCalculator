@@ -8,5 +8,3 @@
 ### 넘 귀여워 ㅎㅎ
 ㅋㅋㅋㅋㅋㅋㅋㅋ왜 만든거지..
 ![image](https://user-images.githubusercontent.com/82494506/139577012-a151159f-cb87-4787-ba99-d3788542d30b.png)
-
-## 고구마엔 김치지
